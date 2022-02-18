@@ -1,0 +1,43 @@
+{
+    "name": "forwardcode/laravel-options",
+    "description": "Fetch/Store Key-Value Pair in Laravel",
+    "keywords": ["laravel", "laravel-options", "forwardcode", "forwardcodetechstudio"],
+    "license": "MIT",
+    "authors": [{
+            "name": "Forwardcode Techstudio",
+            "email": "info@forwardcode.in"
+        },
+        {
+            "name": "Saif Ali",
+            "email": "saif@forwardcode.in"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "illuminate/database": "^6.0|^7.0|^8.0"
+    },
+
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Forwardcode\\LaravelOptions\\": "src/"
+        }
+    },
+
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Forwardcode\\LaravelOptions\\LaravelOptionsServiceProvider"
+            ],
+            "aliases": {
+                "Option": "Forwardcode\\LaravelOptions\\Facade"
+            }
+        }
+    }
+}
