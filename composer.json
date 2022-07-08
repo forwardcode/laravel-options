@@ -19,12 +19,12 @@
     },
 
     "autoload": {
-        "files": [
-            "src/helpers.php"
-        ],
         "psr-4": {
             "Forwardcode\\LaravelOptions\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
 
     "config": {
@@ -36,8 +36,9 @@
                 "Forwardcode\\LaravelOptions\\LaravelOptionsServiceProvider"
             ],
             "aliases": {
-                "Option": "Forwardcode\\LaravelOptions\\Facade"
+                "LaravelOption": "Forwardcode\\LaravelOptions\\Facade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
