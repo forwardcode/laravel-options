@@ -8,14 +8,14 @@
             "email": "info@forwardcode.in"
         },
         {
-            "name": "Saif Ali",
-            "email": "saif@forwardcode.in"
+            "name": "Rahul Gupta",
+            "email": "fc.rahulgupta@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.2.5",
-        "illuminate/support": "^6.0|^7.0|^8.0",
-        "illuminate/database": "^6.0|^7.0|^8.0"
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
+        "illuminate/database": "^6.0|^7.0|^8.0|^9.0"
     },
 
     "autoload": {
